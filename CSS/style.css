@@ -3,13 +3,19 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+  border: black solid;
   display: flex;
+}
+.container {
+  display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
 }
-.container {
-  background-color: blue;
+.grid_container {
+  background-color: white;
   display: flex;
+  flex-grow: 0;
   flex-wrap: wrap;
   gap: 0;
   width: 400px;
@@ -28,4 +34,8 @@ body {
 
 .cell:hover {
   background-color: black;
+}
+.navbar {
+  width: 20vw;
+  background-color: blueviolet;
 }

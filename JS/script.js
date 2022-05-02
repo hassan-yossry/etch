@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const container = document.querySelector(".grid_container");
 const width = 400;
 const height = 400;
 const numCells = 100;
