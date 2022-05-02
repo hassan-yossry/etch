@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  width: 400px;
+  height: 400px;
+}
+.row {
+  display: flex;
+  flex-shrink: 1;
+}
+.row .cell {
+  width: 25px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  background-color: red;
+}
+
+.cell:hover {
+  background-color: black;
+}
